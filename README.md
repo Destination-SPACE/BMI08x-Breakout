@@ -4,10 +4,10 @@ This breakout board is for the Bosch BMI088 6-axis Inertial Measurment Unit. Thi
 
 Requires symbols and footprints from [DS Global Library](https://github.com/Destination-SPACE/DS-KiCad-Global-Source)
 
-![](https://github.com/Destination-SPACE/LTR390-Breakout/blob/main/ltr390Breakout_fixed.jpg)
+![](https://github.com/Destination-SPACE/BMI088-Breakout/blob/main/bmi088Breakout.jpg)
 
 # Licnese
 
-Licensed under the CERN OHLv2 - [Permissive](https://github.com/Destination-SPACE/LTR390-Breakout/blob/main/LICENSE) or as referenced.
+Licensed under the CERN OHLv2 - [Permissive](https://github.com/Destination-SPACE/BMI088-Breakout/blob/main/LICENSE) or as referenced.
 
 (c) Destination SPACE Inc. 2021
