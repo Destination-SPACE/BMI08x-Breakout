@@ -295,17 +295,6 @@ Wire Wire Line
 	6100 3150 6250 3150
 Wire Wire Line
 	6250 3150 6250 3300
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 614B0AD0
-P 6000 5050
-F 0 "J1" H 5972 4932 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 5972 5023 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6000 5050 50  0001 C CNN
-F 3 "~" H 6000 5050 50  0001 C CNN
-	1    6000 5050
-	-1   0    0    1   
-$EndComp
 Text GLabel 5500 4850 0    50   Input ~ 0
 SCL
 Wire Wire Line
@@ -313,13 +302,24 @@ Wire Wire Line
 Text GLabel 5500 4950 0    50   Input ~ 0
 SDA
 Text GLabel 5500 5050 0    50   Input ~ 0
-GND
-Text GLabel 5500 5150 0    50   Input ~ 0
 +3V3
+Text GLabel 5500 5150 0    50   Input ~ 0
+GND
 Wire Wire Line
 	5500 5150 5800 5150
 Wire Wire Line
 	5800 5050 5500 5050
 Wire Wire Line
 	5500 4950 5800 4950
+$Comp
+L DS-connectors:Castellated_Conn_01x04 J1
+U 1 1 61534104
+P 5950 5200
+F 0 "J1" H 5920 4976 50  0000 R CNN
+F 1 "Castellated_Conn_01x04" H 5920 5067 50  0000 R CNN
+F 2 "DS-connectors:Castellated_PinHeader_01x04_P2.54mm_Vertical" H 5950 5200 50  0001 C CNN
+F 3 "" H 5950 5200 50  0001 C CNN
+	1    5950 5200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
