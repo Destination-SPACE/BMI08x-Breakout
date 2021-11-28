@@ -4,7 +4,7 @@ This breakout board is for the Bosch BMI088 6-axis Inertial Measurment Unit. Thi
 
 Requires symbols and footprints from [DS Global Library](https://github.com/Destination-SPACE/DS-KiCad-Global-Source)
 
-![](https://github.com/Destination-SPACE/BMI088-Breakout/blob/main/bmi088Breakout-rev2.jpg)
+![](https://github.com/Destination-SPACE/BMI088-Breakout/blob/main/bmi088Breakout-rev3.jpg)
 
 # Licnese
 
